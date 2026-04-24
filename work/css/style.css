@@ -6,33 +6,33 @@ body {
 }
 
 .wrapper {
-  padding: 65px 0 100px;
+  padding: 60px 0 100px;
 }
 
 .page-title {
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .form-card {
-  width: 650px;
+  width: 600px;
   margin: 0 auto;
   background-color: #effafe;
-  padding: 55px 55px 45px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
 .form-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .form-section {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .form-section-last {
@@ -42,11 +42,11 @@ body {
 .section-title {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 }
 
 .form-group {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .form-group label,
@@ -54,11 +54,11 @@ body {
   display: block;
   font-size: 14px;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .required {
-  color: #ff3b30;
+  color: #e40000;
 }
 
 input[type="text"],
@@ -67,12 +67,12 @@ input[type="password"],
 input[type="tel"],
 select {
   width: 100%;
-  height: 38px;
-  padding: 0 10px;
-  border: 1px solid #d7d7d7;
-  background-color: #ffffff;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #d9d9d9;
+  background-color: #fbfbfb;
   font-size: 14px;
-  color: #222222;
+  color: #545658;
   box-sizing: border-box;
 }
 
@@ -86,7 +86,7 @@ select {
 
 .radio-row {
   display: flex;
-  gap: 24px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -109,22 +109,22 @@ select {
 
 .submit-btn {
   width: 100%;
-  height: 48px;
+  height: 43px;
   border: none;
-  background-color: #0070c0;
+  background-color: #0170bf;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
 }
 
 .notice-text {
-  margin-top: 22px;
-  font-size: 12px;
+  margin-top: 25px;
+  font-size: 10px;
   line-height: 1.8;
 }
 
 .notice-text a {
-  color: #1976c9;
+  color: #0170bf;
   text-decoration: none;
 }
 
