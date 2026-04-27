@@ -130,6 +130,13 @@ select {
 .radio-label input {
   position: absolute;
   opacity: 0;
+  pointer-events: none;
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .radio-label::before {
@@ -161,11 +168,6 @@ select {
   position: relative;
   padding-left: 25px;
   cursor: pointer;
-}
-
-.checkbox-label input {
-  position: absolute;
-  opacity: 0;
 }
 
 .checkbox-label::before {
